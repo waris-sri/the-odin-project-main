@@ -3,4 +3,4 @@
 	url = git@github.com:waris-sri/odin-recipes.git
 [submodule "css-exercises"]
 	path = css-exercises
-	url = /Users/warissripatoomrak/Documents/GitHub/the-odin-project-main/css-exercises
+	url = git@github.com:waris-sri/css-exercises.git
