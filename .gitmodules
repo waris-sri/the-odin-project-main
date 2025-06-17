@@ -4,3 +4,6 @@
 [submodule "css-exercises"]
 	path = css-exercises
 	url = git@github.com:waris-sri/css-exercises.git
+[submodule "odin-landing-page"]
+	path = odin-landing-page
+	url = git@github.com:waris-sri/odin-landing-page.git
