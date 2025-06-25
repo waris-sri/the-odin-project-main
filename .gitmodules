@@ -10,3 +10,6 @@
 [submodule "javascript-exercises"]
 	path = javascript-exercises
 	url = git@github.com:waris-sri/javascript-exercises.git
+[submodule "odin-rock-paper-scissors"]
+	path = odin-rock-paper-scissors
+	url = git@github.com:waris-sri/odin-rock-paper-scissors.git
