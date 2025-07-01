@@ -13,3 +13,6 @@
 [submodule "odin-rock-paper-scissors"]
 	path = odin-rock-paper-scissors
 	url = git@github.com:waris-sri/odin-rock-paper-scissors.git
+[submodule "JavaScript30"]
+	path = JavaScript30
+	url = git@github.com:waris-sri/JavaScript30.git
