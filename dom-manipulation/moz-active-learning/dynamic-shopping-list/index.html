@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A dynamic shopping list</title>
+    <style>
+      li {
+        margin-bottom: 10px;
+        width: 20%;
+        word-wrap: break-word;
+      }
+      span button {
+        margin-left: 2rem;
+        color: gray;
+      }
+      span {
+        display: flex;
+        align-items: baseline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My shopping list</h1>
+    <div>
+      <label for="item">Enter a new item:</label>
+      <input type="text" name="item" id="item" />
+      <button>Add item</button>
+    </div>
+    <ul></ul>
+    <script>
+      const inputArea = document.querySelector("#item");
+      const userList = document.querySelector("ul");
+      const addItem = document.querySelector("button");
+      addItem.addEventListener("click", () => {
+        const item = inputArea.value.trim(); // not .textContent as it accesses or sets the text between HTML tags
+        if (item === "") {
+          alert("Enter an item first!");
+        } else {
+          let listItem = document.createElement("li");
+          listItem.textContent = item;
+          let span = document.createElement("span");
+          const delItem = document.createElement("button");
+          delItem.textContent = "Delete";
+          span.appendChild(listItem);
+          span.appendChild(delItem);
+          userList.appendChild(span);
+          inputArea.value = "";
+          delItem.addEventListener("click", (e) => {
+            e.target.parentElement.remove();
+            inputArea.focus();
+          });
+        }
+        inputArea.focus();
+      });
+      inputArea.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") {
+          addItem.click();
+        }
+      });
+      inputArea.focus();
+    </script>
+  </body>
+</html>

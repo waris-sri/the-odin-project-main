@@ -1,0 +1,40 @@
+body,
+button,
+input {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+}
+div {
+  padding: 0.5rem;
+}
+p {
+  font-family: monospace;
+  margin: 0;
+}
+#output {
+  border: 1px solid whitesmoke;
+  padding: 0 0.5em 0 0.5em;
+  border-radius: 50px;
+  margin-left: 1rem;
+}
+#textBox {
+  width: 50%;
+}
+#container {
+  background-color: darkslateblue;
+}
+.display {
+  background-color: green;
+  display: flex;
+  align-items: center;
+}
+.controls {
+  background-color: firebrick;
+}
+.controls.interest {
+  background-color: gold;
+  color: black;
+  font-weight: 700;
+}

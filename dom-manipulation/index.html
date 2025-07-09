@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- #container has .display and .controls as children -->
+    <div id="container">
+      Container
+      <!-- .display and .controls are siblings of each other -->
+      <div class="display">
+        <button class="button-click" type="button">Click me</button>
+        <p id="button-results"></p>
+      </div>
+      <div class="display">
+        <input id="textBox" type="text" />
+        <p id="output"></p>
+      </div>
+      <div class="controls">Controls A</div>
+      <div class="controls">Controls B</div>
+      <div class="controls">Controls C</div>
+      <div class="controls">Controls D</div>
+      <div class="controls">Controls E</div>
+      <div class="controls interest">Insert before me!</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
