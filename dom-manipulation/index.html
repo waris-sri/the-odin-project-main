@@ -5,11 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DOM Manipulation</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
     <!-- #container has .display and .controls as children -->
     <div id="container">
       Container
+      <div id="box">
+        <p id="cursor-pos"></p>
+        <br />
+        <p id="color-code"></p>
+      </div>
+      <button id="dispatch">Randomize color</button>
+      <small>(particularly used event dispatching and custom event)</small>
       <!-- .display and .controls are siblings of each other -->
       <div class="display">
         <button class="button-click" type="button">Click me</button>
@@ -25,7 +33,13 @@
       <div class="controls">Controls D</div>
       <div class="controls">Controls E</div>
       <div class="controls interest">Insert before me!</div>
+      <div class="display">
+        <ul id="menu">
+          <li id="home">Home</li>
+          <li id="dashboard">Dashboard</li>
+          <li id="report">Report</li>
+        </ul>
+      </div>
     </div>
-    <script src="script.js"></script>
   </body>
 </html>
