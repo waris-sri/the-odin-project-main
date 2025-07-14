@@ -16,3 +16,6 @@
 [submodule "JavaScript30"]
 	path = JavaScript30
 	url = git@github.com:waris-sri/JavaScript30.git
+[submodule "odin-etch-a-sketch"]
+	path = odin-etch-a-sketch
+	url = git@github.com:waris-sri/odin-etch-a-sketch.git
