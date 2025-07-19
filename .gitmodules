@@ -19,3 +19,6 @@
 [submodule "odin-etch-a-sketch"]
 	path = odin-etch-a-sketch
 	url = git@github.com:waris-sri/odin-etch-a-sketch.git
+[submodule "odin-calculator"]
+	path = odin-calculator
+	url = git@github.com:waris-sri/odin-calculator.git
