@@ -16,19 +16,19 @@ function lastLetter(str) {
 }
 
 /* function expression */
-const add7Exp = function (n) {
+const add7Exp = function(n) {
   return n + 7;
 };
 
-const multiplyExp = function (a, b) {
+const multiplyExp = function(a, b) {
   return a * b;
 };
 
-const capitalizeExp = function (str) {
+const capitalizeExp = function(str) {
   return String.fromCharCode(str.charCodeAt(0) - 32) + str.slice(1, str.length);
 };
 
-const lastLetterExp = function (str) {
+const lastLetterExp = function(str) {
   return str[str.length - 1];
 };
 
