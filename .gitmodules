@@ -22,3 +22,6 @@
 [submodule "odin-calculator"]
 	path = odin-calculator
 	url = git@github.com:waris-sri/odin-calculator.git
+[submodule "odin-sign-up-form"]
+	path = odin-sign-up-form
+	url = git@github.com:waris-sri/odin-sign-up-form.git
