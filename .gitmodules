@@ -25,3 +25,6 @@
 [submodule "odin-sign-up-form"]
 	path = odin-sign-up-form
 	url = git@github.com:waris-sri/odin-sign-up-form.git
+[submodule "odin-admin-dashboard"]
+	path = odin-admin-dashboard
+	url = git@github.com:waris-sri/odin-admin-dashboard.git
